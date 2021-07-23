@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow.Launcher.Plugin.Whatsup", "Flow.Launcher.Plugin.Whatsup\Flow.Launcher.Plugin.Whatsup.csproj", "{850FB040-9462-41FF-B915-B27667BBB88D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Whatsup", "Flow.Launcher.Plugin.Whatsup\Flow.Launcher.Plugin.Whatsup.csproj", "{850FB040-9462-41FF-B915-B27667BBB88D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flow.Launcher.Plugin.Whatsup.Test", "Flow.Launcher.Plugin.Whatsup.Test\Flow.Launcher.Plugin.Whatsup.Test.csproj", "{A42A83C7-B57F-4C05-81CB-28009DA2916E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flow.Launcher.Plugin.Whatsup.Test", "Flow.Launcher.Plugin.Whatsup.Test\Flow.Launcher.Plugin.Whatsup.Test.csproj", "{A42A83C7-B57F-4C05-81CB-28009DA2916E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39DA50E6-1534-4E48-A890-F078981F4CF2}"
+	ProjectSection(SolutionItems) = preProject
+		deploy.cmd = deploy.cmd
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

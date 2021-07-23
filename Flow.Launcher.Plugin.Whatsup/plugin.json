@@ -7,6 +7,6 @@
   "Version": "1.0.0",
   "Language": "csharp",
   "Website": "https://github.com/theClueless/Flow.Launcher.Plugin.OneNote",
-  "IcoPath": "Images\\onenote.png",
+  "IcoPath": "Images\\whatup.png",
   "ExecuteFileName": "Flow.Launcher.Plugin.Whatsup.dll"
 }

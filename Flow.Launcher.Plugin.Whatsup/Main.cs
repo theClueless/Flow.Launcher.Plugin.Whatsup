@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Flow.Launcher.Plugin.Whatsup
 {
@@ -48,10 +49,29 @@ namespace Flow.Launcher.Plugin.Whatsup
                         SubTitle = $"Send message to {phoneNumber}",
                         Action = context =>
                         {
-                            Process.Start(webApistring + queryString[1..]);
+                            var targetUrl = webApistring + queryString[1..];
+                            var psi = new ProcessStartInfo
+                            {
+                                FileName = targetUrl,
+                                UseShellExecute = true
+                            };
+                            Process.Start(psi);
                             return true;
                         },
                     });
+                list.Add(
+                    new Result
+                    {
+                        Score = 90,
+                        Title = $"{phoneNumber}",
+                        SubTitle = $"copy {phoneNumber} to clipboard",
+                        Action = context =>
+                        {
+                            Clipboard.SetText(phoneNumber);
+                            return true;
+                        }
+                    }
+                    );
             }
 
             return list;
