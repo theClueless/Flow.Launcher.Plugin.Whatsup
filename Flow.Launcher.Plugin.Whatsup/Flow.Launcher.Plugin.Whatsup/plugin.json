@@ -1,0 +1,15 @@
+{
+  "ID": "E9FED246D1794EDBAB3D47BB12554B2C",
+  "ActionKeywords": [
+    "*",
+    "one"
+  ],
+  "Name": "Whatsup",
+  "Description": "what up helper",
+  "Author": "clueless",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/theClueless/Flow.Launcher.Plugin.OneNote",
+  "IcoPath": "Images\\onenote.png",
+  "ExecuteFileName": "Flow.Launcher.Plugin.OneNote.dll"
+}
